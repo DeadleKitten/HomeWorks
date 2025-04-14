@@ -81,15 +81,15 @@ public class Main {
 
         System.out.println("Задани 8");
 
-        var TotalTime = 640;
-        var TimeOfOne = 8;
-        var TotalEmployees = TotalTime / TimeOfOne;
+        var totalTime = 640;
+        var timeOfOne = 8;
+        var totalEmployees = totalTime / timeOfOne;
 
-        System.out.println(TotalEmployees);
+        System.out.println(totalEmployees);
 
         System.out.println(" Если в компании работает "
-                + TotalEmployees + " человек, то всего " +
-                TotalTime + " часов работы может быть поделено между сотрудниками.");
+                + totalEmployees + " человек, то всего " +
+                totalTime + " часов работы может быть поделено между сотрудниками.");
 
 
     }
