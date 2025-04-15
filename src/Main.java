@@ -13,7 +13,7 @@ public class Main {
 
         System.out.println("Задани 2");
 
-        dog = dog + 2;
+        dog += 2;
         cat = cat + 2;
         paper = paper + 2;
 
