@@ -14,8 +14,8 @@ public class Main {
         System.out.println("Задани 2");
 
         dog += 2;
-        cat = cat + 2;
-        paper = paper + 2;
+        cat += 2;
+        paper += 2;
 
         System.out.println(dog);
         System.out.println(cat);
@@ -23,7 +23,7 @@ public class Main {
 
         System.out.println("Задани 3");
 
-        dog = dog - 3.5;
+        dog -= 3.5;
         cat = cat - 1.6;
         paper = paper - 7639;
 
@@ -51,15 +51,15 @@ public class Main {
 
         System.out.println(frog);
 
-        frog = frog * 10;
+        frog *= 10;
 
         System.out.println(frog);
 
-        frog = frog / 3.5;
+        frog /= 3.5;
 
         System.out.println(frog);
 
-        frog = frog + 4;
+        frog += 4;
 
         System.out.println(frog);
 
