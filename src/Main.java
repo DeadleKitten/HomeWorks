@@ -87,9 +87,13 @@ public class Main {
 
         System.out.println(totalEmployees);
 
-        System.out.println(" Если в компании работает "
-                + totalEmployees + " человек, то всего " +
-                totalTime + " часов работы может быть поделено между сотрудниками.");
+        System.out.println(" Всего работников в компании -  " + totalEmployees + " человек.");
+
+        var employees = 94;
+        var totalTime1 = employees * timeOfOne;
+
+        System.out.println(" Если в компании работает " + employees + " человек, то всего "
+                + totalTime1 + " часа работы может быть поделено между сотрудниками");
 
 
     }
